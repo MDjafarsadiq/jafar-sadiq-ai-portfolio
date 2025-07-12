@@ -52,15 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				// Portfolio skill category colors
+				skill: {
+					programming: 'hsl(var(--skill-programming))',
+					ml: 'hsl(var(--skill-ml))',
+					frameworks: 'hsl(var(--skill-frameworks))',
+					data: 'hsl(var(--skill-data))',
+					deep: 'hsl(var(--skill-deep))',
+					vision: 'hsl(var(--skill-vision))',
+					engineering: 'hsl(var(--skill-engineering))',
+					tools: 'hsl(var(--skill-tools))'
 				}
 			},
 			borderRadius: {
